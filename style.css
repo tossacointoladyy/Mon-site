@@ -372,6 +372,10 @@ footer  a:hover /* Apparence au survol des liens */
     height: 450px;
 
 	}
+		header
+	{
+	margin-bottom: 150px;
+	}
 	.photo
 	{
 	position: fixed;
