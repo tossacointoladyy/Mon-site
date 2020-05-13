@@ -348,3 +348,548 @@ footer  a:hover /* Apparence au survol des liens */
 
 }
 /* place au responsive*/
+
+
+
+
+
+
+
+
+
+/* très grand écran */
+@media all and (min-width: 1600px) and (max-width: 2560px)
+{
+
+	h1
+	{	
+    font-size: 90px;
+   
+	}
+	.ma_couverture
+	{
+	width: 100%;
+    height: 450px;
+
+	}
+	.photo
+	{
+	position: fixed;
+    width: 300px;
+    height: 300px;
+    border-radius: 75% ;
+    border: #0097A7 dotted;
+    margin: -40px 0px 0px 70px;
+    z-index: 999;
+	}
+	nav /*navigation*/
+	{
+	right: 10px;
+	top:20%;
+	position: fixed;
+	width: 450px;
+	height: auto;
+	text-align: justify;
+	margin-right: 50px;
+	font-size: 30px
+	}
+	aside /*music*/
+	{
+	position: fixed;
+    width: 420px;
+    height: 550px;
+    background-color: #263238 ;
+    margin-top: -80px;
+    margin-left: 10px;
+    padding: 10px 10px 10px 10px;
+    border: 2px #0097A7 double;
+    color: white;
+    border-radius: 15px;
+    font-size: 50px;
+	}  
+	.copy
+	{
+	font-size: 30px;
+	}
+	section
+	{
+	width: 100%;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	}
+	.creation
+	{
+    width: 550px;
+    height: 200px;
+    background-color: #0097A7;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	font-size: 35px;
+	}
+
+	.mes_photos
+	{
+    width: 550px;
+    height: 200px;
+    background-color: #0097A7;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	font-size: 35px;
+	}
+
+	.mon_cv
+	{
+    width: 550px;
+    height: 200px;
+    background-color: #0097A7;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	font-size: 35px;
+	}
+
+	.libres_services
+	{
+      width: 550px;
+    height: 200px;
+    background-color: #0097A7;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	font-size: 35px;
+	}
+
+
+
+	.footer_du_site
+	{
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	background: #263238;
+	flex-wrap: nowrap;
+	position: fixed;
+	bottom: 0;
+	justify-content: center;
+	font-size: 30px;
+
+	}
+
+
+
+
+
+}
+
+/*RESOLUTION ECRAN*/
+@media all  and (max-width: 1024px)
+{
+
+	h1
+	{	
+    font-size: 40px;
+   
+	}
+	.ma_couverture
+	{
+	width: 100%;
+    height: 150px;
+
+	}
+	.photo
+	{
+	position: fixed;
+    width: 100px;
+    height: 100px;
+    border-radius: 75% ;
+    border: #0097A7 dotted;
+    margin: -20px 0px 0px 70px;
+    z-index: 999;
+	}
+	nav /*navigation*/
+	{
+	right: 10px;
+	top:20%;
+	position: fixed;
+	width: 200px;
+	height: auto;
+	text-align: justify;
+	margin-right: 10px;
+	font-size: 12px;
+	}
+	aside /*music*/
+	{
+	position: fixed;
+    width: 150px;
+    height: 180px;
+    background-color: #263238 ;
+    margin-top: -80px;
+    margin-left: 30px;
+    padding: 0px 5px 0px 5px;
+    border: 2px #0097A7 double;
+    color: white;
+    border-radius: 11px;
+	}  
+	.copy
+	{
+	font-size: 8px;
+	margin-top: -10px;
+	}
+	section
+	{
+	width: 100%;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	}
+	.creation
+	{
+    width: 250px;
+    height: 80px;
+    background-color: #0097A7;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	}
+
+	.mes_photos
+	{
+    width: 250px;
+    height: 80px;
+    background-color: #0097A7;
+    display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	}
+
+	.mon_cv
+	{
+    width: 250px;
+    height: 80px;
+    background-color: #0097A7;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	}
+
+	.libres_services
+	{
+    width: 250px;
+    height: 80px;
+    background-color: #0097A7;
+    display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	}
+
+
+	.footer_du_site
+	{
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	background: #263238;
+	flex-wrap: nowrap;
+	position: fixed;
+	bottom: 0;
+	justify-content: center;
+	font-size: 15px;
+
+	}
+
+
+
+}
+
+
+
+
+/*RESOLUTION ECRAN TABLETTE */
+@media all  and (max-width: 768px)
+{
+
+	h1
+	{	
+    font-size: 30px;
+   
+	}
+	.ma_couverture
+	{
+	width: 100%;
+    height: 120px;
+
+	}
+	header
+	{
+	margin-bottom: 80px;
+	}
+	.photo
+	{
+	position: fixed;
+    width: 80px;
+    height: 80px;
+    border-radius: 75% ;
+    border: #0097A7 dotted;
+    margin: -20px 0px 0px 70px;
+    z-index: 999;
+	}
+	nav /*navigation*/
+	{
+	right: 10px;
+	top:20%;
+	position: fixed;
+	width: 180px;
+	height: auto;
+	text-align: justify;
+	margin-right: 10px;
+	font-size: 10px;
+	}
+	aside /*music*/
+	{
+	position: fixed;
+    width: 130px;
+    height: 130px;
+    background-color: #263238 ;
+    margin-top: -130px;
+    margin-left: 30px;
+    border: 2px #0097A7 double;
+    color: white;
+    font-family: mesliens;
+    border-radius: 9px;
+    font-size: 9px
+	}  
+	.copy
+	{
+	font-size: 5px;
+	margin-top: -10px;
+	}
+	section
+	{
+	width: 100%;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	}
+	.creation
+	{
+    width: 250px;
+    height: 80px;
+    background-color: #0097A7;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	}
+
+	.mes_photos
+	{
+    width: 250px;
+    height: 80px;
+    background-color: #0097A7;
+    display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	}
+
+	.mon_cv
+	{
+    width: 250px;
+    height: 80px;
+    background-color: #0097A7;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	}
+
+	.libres_services
+	{
+    width: 250px;
+    height: 80px;
+    background-color: #0097A7;
+    display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	}
+
+
+	.footer_du_site
+	{
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	background: #263238;
+	flex-wrap: nowrap;
+	position: fixed;
+	bottom: 0;
+	justify-content: center;
+	font-size: 15px;
+
+	}
+
+
+
+}
+
+/* téléphone */
+@media screen and (min-width: 320px) and (max-width: 720px) 
+{
+	h1
+	{	
+    font-size: 20px;
+   
+	}
+	header
+	{
+	margin-bottom: 80px;
+	}
+	.ma_couverture
+	{
+	width: 100%;
+    height: 100px;
+
+	}
+	.photo
+	{
+	position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 75% ;
+    border: #0097A7 dotted;
+    margin: -5px 0px 0px 20px;
+    z-index: 999;
+	}
+	nav /*navigation*/
+	{
+	position: absolute;
+	width: 200px;
+	height: auto;
+	text-align: justify;
+	margin-right: 10px;
+	font-size: 12px;
+	}
+	aside /*music*/
+	{
+	position: absolute;
+    width: 150px;
+    height: 180px;
+    background-color: #263238 ;
+    margin-top: -180px;
+    margin-left: 30px;
+    padding: 0px 5px 0px 5px;
+    border: 2px #0097A7 double;
+    color: white;
+    border-radius: 11px;
+	}  
+	.copy
+	{
+	font-size: 8px;
+	margin-top: -10px;
+	}
+	section
+	{
+	width: 100%;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	}
+	header
+	{
+	margin-bottom: 180px;
+	}
+	.lien1
+	{
+	    display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	}
+
+	.creation
+	{
+    width: 250px;
+    height: 80px;
+    background-color: #0097A7;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	}
+
+	.mes_photos
+	{
+    width: 250px;
+    height: 80px;
+    background-color: #0097A7;
+    display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	}
+
+	.mon_cv
+	{
+    width: 250px;
+    height: 80px;
+    background-color: #0097A7;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	}
+
+	.libres_services
+	{
+    width: 250px;
+    height: 80px;
+    background-color: #0097A7;
+    display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	}
+
+
+	.footer_du_site
+	{
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	background: #263238;
+	flex-wrap: nowrap;
+	position: fixed;
+	bottom: 0;
+	justify-content: center;
+	font-size: 15px;
+
+	}
+
+
+}
