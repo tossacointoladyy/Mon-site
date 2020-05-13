@@ -1,0 +1,457 @@
+
+
+
+/* Recherche de nom cool pour me retrouver */
+
+body
+{
+    background-color: black;
+
+
+}
+
+#bloc_page
+{
+    width: 750px;
+    height: auto;
+    margin: auto;
+    background-color: #37474F;
+    color: white;
+}
+  
+
+
+
+.minilogo i 
+{
+ border-radius: 50%;
+ margin: 10px 0px 0px 20px;
+ border: 2px solid white;
+ padding: 8px;
+}
+
+
+/* Icon et titre*/
+
+header
+{
+    display: flex;
+    flex-direction: nowrap;
+    justify-content: flex-start;
+ 
+}
+.titre/* Nom prénom */
+{
+ 
+    color: white;
+    margin: 25px 0px 0px 15px;
+
+}
+
+.logo 
+{
+    width: 250px;
+    background-color: #263238;
+    height: 200px;
+
+}
+
+img 
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 75% ;
+    margin: 40px 0px 0px 70px;
+}
+.minidate li
+{
+    list-style-type: none;
+}
+
+.minidate li::before 
+{
+    
+    content: "⊙";
+    font-size: 70%;
+    float: left;
+    margin-left: -1.7em;
+    margin-right: 0.4em;
+    margin-top: 0.33em;
+
+}
+
+/* Partie gauche du CV */
+
+.conteneur
+{
+    display: flex;
+    flex-direction: nowrap;
+    justify-content: flex-start;
+
+}
+
+
+aside 
+{
+    width: 250px;
+    color: #181818;
+    background-color: #263238; 
+}
+
+
+
+/* Coté droit du cv*/
+
+.bloc1
+{
+    display: flex;
+    flex-direction: nowrap;
+    justify-content: center;
+}
+.bloc2
+{
+    display: flex;
+    flex-direction: nowrap;
+    justify-content: center;
+}
+
+.bloc3
+{
+    display: flex;
+    flex-direction: nowrap;
+    justify-content: center;
+}
+.date
+{
+    text-align:justify;
+    font-size: 0.9em;
+    font-weight: normal;
+
+}
+
+
+.minidate
+{
+    width: 150px;
+
+}
+.minidate2
+{
+    width: 150px;
+
+}
+.xp
+{
+    width: 300px;
+}
+
+
+.reco1
+{
+    width: 200px;
+
+}
+
+
+
+
+/*Titre, paragraphe, coté gauche*/
+.Pres
+{
+    width: 210px;
+    color: #FFFFFF;
+    text-align:justify;
+    margin: 10px 20px 20px 20px;
+}
+.Pres2
+{
+    width: 210px;
+    color: #FFFFFF;
+    text-align:justify;
+    margin: 10px 0px 20px 20px;
+}
+
+p 
+{
+    text-align:justify;
+    font-size: 0.8em;
+    font-weight: normal;
+}
+li
+{
+    text-align:justify;
+    font-size: 0.8em;
+    font-weight: normal;
+}
+h3/* Titre coté gauche*/
+{
+    width: 250px;
+    background-color: #0097A7; 
+    color: white;
+    text-align:center;
+    padding: 5px 0px 5px 0px;
+    margin: 0px 0px 0px 0px;
+}
+/* Titre sous titre*/
+header h1/* Nom prénom*/
+{
+    font-family: 'Freebooter Script';
+    font-size: 2.6em;
+    font-weight: normal;
+    margin: 0px 0px 0px 17px;
+}
+
+header h4/* Profession*/
+{
+
+    font-size: 1.2em;
+    font-weight: normal;
+    margin: 0px 0px 0px 0px;
+}
+
+
+
+h2/* Titre du coté droit*/
+{
+    width: auto;
+    font-size: 20px;
+    padding: 0px 0px 5px 20px;
+    margin: 0px 0px 5px 15px;
+}
+
+
+
+.ligne /* Ligne sous le titre*/
+{
+    text-decoration: underline;
+    text-decoration-color: #0097A7;
+    padding: 0px 0px 5px 20px;
+}
+
+hr /* Barre ligne */
+{
+	height: 2px;
+	border: 0;
+	background-color: #0097A7;
+    margin: 0px 0px 5px 15px;
+}
+
+
+
+
+
+
+
+
+
+/* très grand écran */
+@media all and (min-width: 1600px) and (max-width: 2560px)
+
+{
+
+     #bloc_page
+    {
+    width: 1320px;
+    font-size: 33px;
+    }
+    
+    header
+    {
+    display: flex;
+    flex-direction: nowrap;
+    justify-content: flex-start;
+    }
+    .logo 
+    {
+    width: 400px;
+    background-color: #263238;
+    height: 400px;
+
+    }
+
+    img 
+    {
+    width: 250px;
+    height: 250px;
+    border-radius: 75% ;
+    margin: 60px 0px 0px 70px;
+    }
+    h3/* Titre coté gauche*/
+    {
+    width: 400px;
+    background-color: #0097A7; 
+    color: white;
+    text-align:center;
+    padding: 5px 0px 5px 0px;
+    margin: 0px 0px 0px 0px;
+    }
+    .Pres2
+    {
+    width: 360px;
+    color: #FFFFFF;
+    text-align:justify;
+    margin: 10px 0px 20px 20px;
+    }
+    aside 
+    {
+    width: 400px;
+    color: #181818;
+    background-color: #263238; 
+    }
+
+
+    .minidate
+    {
+    width: 300px;
+
+    }
+    .minidate2
+    {
+    width: 300px;
+
+    }
+    .xp
+    {
+    width: 500px;
+    }
+
+
+    .reco1 /* recommandation*/
+    {
+    width: 400px;
+    padding: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 15px;
+    }
+
+
+    h2 
+    {
+    font-size: 33px;
+    }
+}
+
+
+/*RESOLUTION ECRAN*/
+@media all  and (max-width: 1024px)
+{
+     #bloc_page
+    {
+    width: auto;
+    font-size: 21px;
+    }
+
+    header
+    {
+    width: auto;
+    background-color: #263238;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+ 
+    }
+
+    .titre/* Nom prénom */
+    {
+    color: white;
+    padding: 0px 0px 20px 0px;
+
+    }
+    .conteneur
+    {
+    width: auto;
+    background-color: #37474F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+ 
+    }
+    .colonnegauche
+    {
+    width: auto;
+    background-color: #37474F;
+    display: flex;
+    flex-direction: nowrap;
+    justify-content: center;
+    }
+    .Pres2
+    {
+    width: auto;
+    height: 300px;
+    overflow-y: scroll;
+    margin: 10px 0px 0px 20px;
+    padding: 0px 20px;
+    }
+
+}
+
+/* téléphone */
+@media screen and (min-width: 320px) and (max-width: 720px) 
+{
+
+     #bloc_page
+    {
+    width: auto;
+    font-size: 21px;
+    }
+    .conteneur
+    {
+    width: auto;
+    background-color: #37474F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+ 
+    }
+    header
+    {
+    width: auto;
+    background-color: #263238;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+ 
+    }
+
+    .titre/* Nom prénom */
+    {
+    font-size: 12px;
+    color: white;
+    padding: 0px 0px 20px 0px;
+
+    }
+    /* Coté droit du cv*/
+    .bloc1 , .bloc2 ,.bloc3
+    {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+
+    }
+    .colonnegauche
+    {
+    width: auto;
+    background-color: #37474F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+    .Pres2
+    {
+    width: auto;
+    height: 200px;
+    overflow-y: scroll;
+    color: #FFFFFF;
+    text-align:justify;
+    margin: 10px 0px 0px 20px;
+    padding: 0px 20px;
+    }
+}
+
+
