@@ -786,24 +786,23 @@ footer  a:hover /* Apparence au survol des liens */
 	nav /*navigation*/
 	{
 	position: absolute;
-	width: 200px;
+	width: 150px;
 	height: auto;
 	text-align: justify;
-	margin-right: 10px;
-	font-size: 12px;
+	margin-right: 5px;
+	font-size: 10px;
 	}
 	aside /*music*/
 	{
 	position: absolute;
-    width: 150px;
-    height: 180px;
+    width: 120px;
+    height: 170px;
     background-color: #263238 ;
-    margin-top: -180px;
-    margin-left: 30px;
-    padding: 0px 5px 0px 5px;
+    margin-top: -190px;
+    margin-left: 5px;
     border: 2px #0097A7 double;
     color: white;
-    border-radius: 11px;
+    border-radius: 9px;
 	}  
 	.copy
 	{
